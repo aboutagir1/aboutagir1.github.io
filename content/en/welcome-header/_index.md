@@ -4,7 +4,7 @@ title: "hi !!!"
 intro: 
   - ""
   - ""
-image: "/pinkstar.png"
+image: ""
 list:
   name: "what we want to learn about"
   items: 
