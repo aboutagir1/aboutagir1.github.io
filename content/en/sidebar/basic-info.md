@@ -1,5 +1,5 @@
 ---
 headless: true
 ---
-- age: 5
-- pronouns: she/her
+- what we are: people
+- what we do: learn

@@ -1,6 +1,6 @@
 ---
 headless: true
 ---
-meow! mochi here, your purrfect companion
+Extra Extra
 
-rawr do you like my blog?
+Read all about it 

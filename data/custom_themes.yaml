@@ -1,17 +1,17 @@
-- name: "meow"
-  site-bg: "/black-flowertile.png"
-  accent-color: "#f55cc0"
-  select-color: "#ffc1e9"
-  link-color: "#5083C1"
-  bg-color: "#f7f9fa"
-  text-color: "#191919"
-  bg2-color: "white"
-  border-color: "#215697"
-  post-shadow-color: "#21569760"
-  special-text-color: "#215697"
-  post-header-color: "white"
-  post-outline-color: "#6EAAD6"
-  post-outline-color2: "#CEEAFF"
+- name: "meow" #005F66 #0BDA51
+  site-bg: "/carpetbg1.png"
+  accent-color: "#FC8EAC" #slider sidebar
+  select-color: "#FC8EAC" #link hover colour
+  link-color: "#005F66" #link colour
+  bg-color: "#4FAEB5" #background colour
+  text-color: "#005F66" #most of the text
+  bg2-color: "#fffef5" #most of background
+  border-color: "#FED3DE" #outlines of most
+  post-shadow-color: "#FC8EAC" #shadow boxes
+  special-text-color: "#005F66" #header text + some
+  post-header-color: "#FC8EAC" #intro text inner colour
+  post-outline-color: "#FED3DE"
+  post-outline-color2: "#FED3DE"
   list-style:
     image: "/pinkstar.png"
     # type: "+ "

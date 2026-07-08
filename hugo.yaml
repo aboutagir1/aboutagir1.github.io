@@ -1,5 +1,5 @@
 title: "are your boring ideas the same as mine?"
-baseURL: "https://aboutagir1.github.io/aybioftsam/"
+baseURL: "/"
 languageCode: 'en-us'
 defaultContentLanguage: "en"
 titleCaseStyle: 'none' # comment this line for forcing capitalized titles on tags
@@ -31,7 +31,7 @@ permalinks:
 params:
   # themes made by neopost: light-blue, dark-blue, light-green, light-yellow, light-pink, light-purple
   # but you can also create your colored theme at "/data/custom_themes.yaml"!
-  theme: "light-blue"
+  theme: "meow"
   favicon: "/favicon.ico"
   posts-per-page: 1 # defaults to 5 if not defined
   toc-auto-numbering: false

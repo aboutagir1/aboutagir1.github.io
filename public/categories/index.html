@@ -2,7 +2,7 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>categories | are your boring ideas the same as mine?</title>
-    <link rel="canonical" href="http://localhost:1313/">
+    <link rel="canonical" href="//localhost:1313/">
     
     
     <link rel="icon" href="/favicon.ico">
@@ -13,29 +13,32 @@
     
     
     <style>
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&display=swap');
 
 
 
 
     
+        
+    
 
 
 :root {
-    --site-bg: url("/flowertile.png");
-    --accent-color: #f55cc0;
-    --select-color: #ffc1e9;
-    --link-color: #5083C1;
-    --bg-color: #CEEAFF;
-    --text-color: #191919;
-    --bg-color2: white;
-    --border-color: #215697;
+    --site-bg: url("/carpetbg1.png");
+    --accent-color: #FFFFCC;
+    --select-color: ##FFFFCC;
+    --link-color: #ffcc75;
+    --bg-color: ##FFFFCC;
+    --text-color: #ffcc75;
+    --bg-color2: #ffcc75;
+    --border-color: ##FFFFCC;
     --special-text-color: #215697;
-    --post-header-color: white;
-    --post-shadow-color: #21569760;
-    --outline-color: #6EAAD6;
-    --outline-color2: #CEEAFF;
+    --post-header-color: #ffcc75;
+    --post-shadow-color: #ffcc75;
+    --outline-color: #ffcc75;
+    --outline-color2: #ffcc75;
     --list-style-type: "";
-    --list-style-image: url("/flower.png");
+    --list-style-image: url("/pinkstar.png");
 }
 
 * {
@@ -72,6 +75,7 @@
 }
 
 body {
+    font-family: "Bonbon", cursive;
     background-color: var(--bg-color);
     background-image: url('/strippedbg.png') !important;
     margin: 0;
@@ -97,6 +101,7 @@ div.tags > a {
 }
 
 h1 {
+    font-family: "Bonbon", cursive;
     font-size: 1.5em;
     color: var(--post-header-color);
     filter: drop-shadow(2px 0 0 var(--outline-color)) drop-shadow(0 2px 0 var(--outline-color)) drop-shadow(-2px 0 0 var(--outline-color)) drop-shadow(0 -2px 0 var(--outline-color))drop-shadow(0 1px 1px var(--outline-color2)) drop-shadow(1px 0 1px var(--outline-color2));
@@ -107,6 +112,7 @@ h5,
 h6 {color: var(--special-text-color);}
 
 header {
+    font-family: "Bonbon", cursive; 
     background-size: 100%;
     background-position: center;
     min-height: 80px;
@@ -115,18 +121,21 @@ header {
 }
 
 header > h1 {
-    background-color: var(--bg-color2);
+    font-family: "Bonbon", cursive;!important   
+    background-color: transparent !important;
     color: var(--special-text-color);
     margin: 0 auto;
     font-size: 2em;
  
      
-    max-width: 48rem;
+    max-width: 60rem;
     padding: 6px 12px;
+    border: none !important;
     border-radius: 1em;
     border: 4px double var(--outline-color);
     filter: none;
     text-align: center;
+    font-family: "Bonbon", cursive;
 }
 
 ul.pagination {
@@ -338,6 +347,9 @@ article img {
 }
 
 header h1 a {
+    font-family: "Bonbon", cursive !important;
+    font-size: 2.4rem !important;
+    font-weight: 700 !important;
     cursor: pointer;
     text-decoration: none;
     color: var(--special-text-color);
@@ -561,14 +573,61 @@ pre {
     margin:1.2rem 0;
     overflow-x:auto;  
 }
+ 
+ul li::before, .post-list ul li::before {
+    background-image: none !important;
+}
+
+ 
+ul li {
+    list-style-type: none !important;
+    list-style-image: none !important;  
+    position: relative;
+    padding-left: 25px;
+}
+ul li::before {
+    content: "" !important;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    background-image: url('/pinkstar.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+ 
+.pagination ul li, 
+.pagination li,
+.tags a,
+.tags ul li,
+#mini-bio ul li,
+.bio ul li,
+nav ul li,
+.menu ul li {
+    padding-left: 0 !important;
+}
+.pagination ul li::before,
+.pagination li::before,
+.tags a::before,
+.tags ul li::before,
+#mini-bio ul li::before,
+.bio ul li::before,
+nav ul li::before,
+.menu ul li::before {
+    background-image: none !important;
+    content: none !important;
+}
 </style>
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index, follow">
     <meta charset="utf-8">
 </head>
 <body>
-        <header><h1 id="are your boring ideas the same as mine?"><a href="http://localhost:1313/">are your boring ideas the same as mine?</a></h1></header>
+        <header><h1 id="are your boring ideas the same as mine?"><a href="//localhost:1313/">are your boring ideas the same as mine?</a></h1></header>
 <main>
     
     
